@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,100&display=swap');
+
+.nav-link {
+    height: 24px;
+    width: 119px;
+    color: #333;
+    font-family: Apercu;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+.navbar-light .navbar-nav .nav-link.active{
+    height: 24px;
+    width: 119px;
+    font-family: Apercu;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F7A590!important;
+}
+
+.shoping, .user, .search{
+    margin-right: 30px;
+}
+
+.icon {
+    position: right;
+}
+
+footer {
+    height: 300px;
+    padding: 20px;
+    color: white;
+    background-color: #00a2c6;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.mainproduct {
+    background-color: #EEEBEB;
+    color: #FF957A;
+    height: 500px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.product {
+    width: 50%;
+    height: 500px;
+    float: right;
+}
+
+.welcome-to-yasa {
+  color: #FF957A;
+  font-weight: 800;
+  letter-spacing: 3.01px;
+  line-height: 20px;
+}
+
+.desc {
+    size: 30px;
+    color: #4F4F4F;
+}
+
+.judul {
+    padding-left: 200px;
+    padding-top: 200px;
+    float: left;
+    font-family: Poppins;
+}
+
+.button {
+    border-radius: 173px;
+    background-color: #F35923;
+    height: 39px;
+    width: 200px;
+    padding: 5px 0px;
+}
+
+.learn_more {
+    height: 28px;
+    width: 144px;
+    color: #FFF;
+    font-family: Apercu;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.mediasocial {
+    background-color: #9BC4C8;
+    height: 100px;
+    width: 1920px;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+}
