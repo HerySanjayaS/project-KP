@@ -1,47 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('./test.css');
+@import url('./footer.css');
+@import url('./navigation.css');
+
+.nav-bar {
+    margin-top: 100px;
+}
 
 .nav-link {
     height: 24px;
     width: 119px;
     color: #333;
     font-family: Apercu;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 24px;
+    
   }
 
-.navbar-light .navbar-nav .nav-link.active{
+.navbar-light .navbar-nav .nav-item .nav-link.active{
     height: 24px;
     width: 119px;
     font-family: Apercu;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 24px;
+    line-height: 22px;
     color: #F7A590!important;
 }
 
 .shoping, .user, .search{
+    height: 10px;
+    text-decoration: none;
     margin-right: 30px;
 }
 
-.icon {
-    position: right;
-}
-
 footer {
-    height: 300px;
+    height: 100%;
     padding: 20px;
-    color: white;
-    background-color: #00a2c6;
+    color: black;
     text-align: center;
     font-weight: bold;
 }
 
 
 .mainproduct {
+    width: 100%;
+    height: 100%;
     background-color: #EEEBEB;
     color: #FF957A;
     height: 500px;
     text-align: center;
     font-weight: bold;
+    
 }
 
 .product {
@@ -50,21 +58,22 @@ footer {
     float: right;
 }
 
-.welcome-to-yasa {
+.welcome {
   color: #FF957A;
+  font-size: 80px;
   font-weight: 800;
   letter-spacing: 3.01px;
-  line-height: 20px;
+  line-height: 50px;
 }
 
 .desc {
     size: 30px;
     color: #4F4F4F;
+    margin-top: 30px;
 }
 
 .judul {
-    padding-left: 200px;
-    padding-top: 200px;
+    padding: 140px 0px 140px 140px;
     float: left;
     font-family: Poppins;
 }
@@ -88,11 +97,92 @@ footer {
     text-decoration: none;
 }
 
-.mediasocial {
+.medsos {
     background-color: #9BC4C8;
-    height: 100px;
-    width: 1920px;
-    display: flex;
+    height: 150px;
+    width: 100%;
     padding: 50px;
     align-items: center;
 }
+
+.twitter, .instagram, .youtube {
+    display: flex; 
+    align-items: center; 
+    margin-right: 50px;
+}
+
+.toTwitter, .toInstagram, .toYoutube {
+    color: white;
+    text-decoration: none;
+}
+
+.toTwitter:hover, .toInstagram:hover, .toYoutube:hover, .learn_more:hover {
+    color: gray;
+}
+
+.txtTwitter, .txtInstagram, .txtYoutube {
+    margin-top: 15px;
+}
+
+.service {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.judulservice {
+    height: 30px;
+    width: 279px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+}
+
+.lorem {
+    height: 300px;
+    width: 100%;
+    color: #F7A590;
+    font-family: Poppins;
+    padding-top: 100px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1.51px;
+    line-height: 56px;
+    text-align: center;
+}
+
+.profile {
+  height: 112px;
+  width: 100%;
+  color: #F7A590;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;  
+  text-align: center;
+}
+
+.kutip {
+    height: 200px;
+    width: 100%;
+    font-size: 100px;
+}
+
+.foto {
+  height: 240px;
+  width: 100%;
+  color: #F7A590;
+  font-family: Apercu;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+}
+
+
+
+
