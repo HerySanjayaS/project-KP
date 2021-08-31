@@ -101,7 +101,7 @@ footer {
     background-color: #9BC4C8;
     height: 150px;
     width: 100%;
-    padding: 50px;
+    padding: 50px 50px 50px 100px;
     align-items: center;
 }
 
@@ -132,7 +132,7 @@ footer {
     margin: 0;
 }
 
-.judulservice {
+.money-back, .customer-support {
     height: 30px;
     width: 279px;
     color: #000;
@@ -141,9 +141,22 @@ footer {
     font-weight: 700;
     line-height: 30px;
     text-align: center;
+    margin-top: 20px;
 }
 
-.lorem {
+.delivery {
+    height: 30px;
+    width: 279px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.judul-product {
     height: 300px;
     width: 100%;
     color: #F7A590;
@@ -154,6 +167,11 @@ footer {
     letter-spacing: 1.51px;
     line-height: 56px;
     text-align: center;
+}
+
+.sub-judul-product {
+    font-family: Satoshi;;
+    color: silver;
 }
 
 .profile {
@@ -183,6 +201,121 @@ footer {
   text-align: center;
 }
 
+.product-preview {
+    margin-top: -80px;
+}
 
+.catalog {
+    margin-bottom: 20px;
+}
 
+.card {
+    border: none;
+}
+.col {
+    margin: 0px 30px;
+}
 
+.product-display {
+    height: 40%;
+}
+
+.detail-prodcut {
+    margin: 100px 20px;
+}
+
+.nama-product {
+    height: 42px;
+    width: 201px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+}
+
+.harga {
+    height: 42px;
+    width: 150px;
+    color: #F7A590;
+    font-family: Poppins;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-top: -20px;
+}
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+    transform: translateX(0);
+}
+
+.carousel-inner .carousel-control-next .carousel-control-next-icon{
+    color: purple;
+}
+
+.carousel-control-next-icon {
+    margin-top: -20px;
+    margin-left: 40px;
+    height: 66px;
+    width: 96px;
+    background-size: 40%, 40%;
+    background-color: #F7A590;
+}
+
+.carousel-control-prev-icon {
+    margin-top: -20px;
+    margin-right: 40px;
+    height: 66px;
+    width: 96px;
+    background-size: 40%, 40%;
+    background-color: #F7A590;
+}
+
+.discount {
+    width: 100%;
+    height: 180px;
+    background-image: url('../img/discount.png');
+    text-align: left;
+    color:white;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-family: poppins;
+    border: 2px solid white;
+    border-style: double;
+    border-width: 13px;
+}
+
+.btnfirst {
+    text-decoration: none;
+    text-align: center;
+    color: #FFF;
+    font-weight: 100;
+    border: 3px solid white;
+}
