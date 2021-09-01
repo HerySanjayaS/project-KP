@@ -14,19 +14,14 @@
 
         @include('home.partial.discount')
 
+        @include('home.partial.data-product')
+
         @include('home.partial.bestseller')
 
         @include('home.partial.subscribe')
-      <div class="profile">
-        <div>
-          <p>TESTIMONIAL</p>
-          <P style="color: black;">OUR CUSTOMER SAYS</P>
-        </div>
-      </div>
-  
-      <div class="foto">
-        <img src="img/katerina.png" alt="">
-        <p>Katerina Storia</p>
-      </div>
+
+        @include('home.partial.customer')
+      
+
       </main> 
     @endsection

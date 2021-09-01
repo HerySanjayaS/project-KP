@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 @import url('./test.css');
 @import url('./footer.css');
 @import url('./navigation.css');
@@ -27,7 +28,7 @@
 }
 
 .shoping, .user, .search{
-    height-margin-right: 10px;
+    margin-right: 10px;
     text-decoration: none;
     margin-right: 30px;
 }
@@ -179,9 +180,10 @@ footer {
   width: 100%;
   color: #F7A590;
   font-family: Poppins;
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 700;  
   text-align: center;
+  padding-top: 50px;
 }
 
 .kutip {
@@ -205,9 +207,6 @@ footer {
     margin-top: -80px;
 }
 
-.catalog {
-    margin-bottom: 20px;
-}
 
 .card {
     border: none;
@@ -243,42 +242,38 @@ footer {
 }
 
 @media (max-width: 767px) {
-    .carousel-inner .carousel-item > div {
+    .carousel-inner.catalog .carousel-item.catalog > div {
         display: none;
     }
-    .carousel-inner .carousel-item > div:first-child {
+    .carousel-inner.catalog .carousel-item.catalog > div:first-child {
         display: block;
     }
 }
 
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
+.carousel-inner.catalog .carousel-item.active.catalog,
+.carousel-inner.catalog .carousel-item-next.catalog,
+.carousel-inner.catalog .carousel-item-prev.catalog {
     display: flex;
 }
 
-/* medium and up screens */
 @media (min-width: 768px) {
     
-    .carousel-inner .carousel-item-end.active,
-    .carousel-inner .carousel-item-next {
+    .carousel-inner.catalog .carousel-item-end.active,
+    .carousel-inner.catalog .carousel-item-next {
     transform: translateX(25%);
     }
     
-    .carousel-inner .carousel-item-start.active, 
-    .carousel-inner .carousel-item-prev {
+    .carousel-inner.catalog .carousel-item-start.active, 
+    .carousel-inner.catalog .carousel-item-prev {
     transform: translateX(-25%);
     }
 }
 
-.carousel-inner .carousel-item-end,
-.carousel-inner .carousel-item-start { 
+.carousel-inner.catalog .carousel-item-end.catalog,
+.carousel-inner.catalog .carousel-item-start.catalog { 
     transform: translateX(0);
 }
 
-.carousel-inner .carousel-control-next .carousel-control-next-icon{
-    color: purple;
-}
 
 .carousel-control-next-icon {
     margin-top: -20px;
@@ -299,7 +294,7 @@ footer {
 }
 
 .discount {
-    width: 100%;
+    width: 95%;
     height: 180px;
     background-image: url('../img/discount.png');
     text-align: left;
@@ -310,6 +305,9 @@ footer {
     border: 2px solid white;
     border-style: double;
     border-width: 13px;
+    justify-content: center;
+    margin-left: 30px;
+    margin-bottom: 20px;
 }
 
 .btnfirst {
@@ -320,6 +318,14 @@ footer {
     border: 3px solid white;
 }
 
+.btnsecond {
+    text-decoration: none;
+    text-align: center;
+    color: #828282;
+    font-weight: 100;
+    border: 3px solid #828282;
+}
+
 .bestseller {
     height: 850px;
     width: 100%;
@@ -327,7 +333,7 @@ footer {
 
 .best {
     display: flex;
-    margin-right: 10px;
+    margin: 0px 30px;
     justify-content: space-around;
     padding-top: 0px;
 }
@@ -349,6 +355,7 @@ footer {
     text-align: center;
 }
 
+
 .bordersubscribe {
     border: solid 1px white;
 }
@@ -358,4 +365,97 @@ footer {
     height: 50px;
     background-color: white;
     margin-left: 310px;
+}
+
+.data-product .data-product-slide .carousel-indicators li.active {
+  background: yellow;
+}
+
+.data-product .carousel-inner {
+    width: 95%;
+    margin-left: 35px;
+}
+
+.data-product .data-product-img {
+    float: left;
+    width: 500px;
+}
+
+.data-product .data-product-detail {
+    width: 50%;
+    float: right;
+    padding-right: 200px;
+}
+
+.data-product .data-product-detail-judul {
+    height: 70px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1.88px;
+    line-height: 70px;
+}
+
+.data-product .data-product-detail-judul .data-product-sale {
+    height: 50px;
+    width: 173px;
+    background-color: #F7A590;  
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 36px;
+    letter-spacing: 1.36px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.data-product .data-product-detail .data-product-description {
+    margin-top: 50px;
+    height: 198px;
+    width: 500px;
+    color: #333;
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 38px;
+}
+
+.data-product .data-product-detail .data-product-harga {
+    height: 42px;
+    width: 150px;
+    color: #F7A590;
+    font-family: Poppins;
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+.customer1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    height: 200px;
+}
+
+.nama1 {
+    padding-top: 10px;
+    font-family: poppins;
+    font-size: 20px;
+    color: #F7A590;
+    text-align: center;
+}
+
+.komentar {
+    font-size: 30px;
+    text-align: center;
+    font-style: oblique;
+    margin-top: -80px;
+    margin-bottom: 50px;
+
+}
+
+.koma {
+    font-family: 'Alex Brush';
+    font-size: 200px;
+    color: #F7A590;
+    text-align: center;
 }
