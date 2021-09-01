@@ -13,6 +13,10 @@
         @include('home.partial.catalog')
 
         @include('home.partial.discount')
+
+        @include('home.partial.bestseller')
+
+        @include('home.partial.subscribe')
       <div class="profile">
         <div>
           <p>TESTIMONIAL</p>
