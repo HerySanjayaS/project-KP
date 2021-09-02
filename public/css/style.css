@@ -22,7 +22,7 @@
     height: 24px;
     width: 119px;
     font-family: Apercu;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 22px;
     color: #F7A590!important;
 }
@@ -367,6 +367,18 @@ footer {
     margin-left: 310px;
 }
 
+.carousel .carousel-indicators .indicator {
+    height: 33px;
+    width: 33px;
+    background-color: #fff;
+    background-color: #999999;
+  }
+  
+  .carousel .carousel-indicators .active {
+    height: 33px;
+    width: 33px;
+    background-color: #F7A590;
+  }
 .data-product .data-product-slide .carousel-indicators li.active {
   background: yellow;
 }
@@ -458,4 +470,69 @@ footer {
     font-size: 200px;
     color: #F7A590;
     text-align: center;
+}
+
+.getintouch {
+    width: 100%;
+    text-align: center;
+    font-family: poppins;
+}
+
+.judulgetin {
+    font-size: 30px;
+    color: #F7A590;
+}
+
+.desc {
+    font-size: 15px;
+}
+
+.contact1 {
+    background-color: #F2F2F2;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.peta {
+    height: 30px;
+    width: 279px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card {
+    width: 98%;
+    box-shadow: 4px 4px 8px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.judulsend {
+    color: #F7A590;
+}
+
+.formdesc {
+    height: 100px;
+}
+
+.form {
+    color: #4F4F4F;
+}
+
+.buttonsend {
+    background-color: #F35923;
+    height: 39px;
+    width: 200px;
+    margin-left: 300px;
 }

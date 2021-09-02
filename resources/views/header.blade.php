@@ -8,7 +8,7 @@
       <div class="collapse navbar-collapse justify-content-center">
         <ul class="navbar-nav">
           <li class="nav-item">
-              <a class="nav-link active home" aria-current="page" href="#">Home</a>
+              <a class="nav-link active home" aria-current="page" href="/">Home</a>
           </li>
           <li class="nav-item">
               <a class="nav-link shop" href="#">Shop</a>
@@ -17,7 +17,7 @@
               <a class="nav-link collection" href="#">Collection</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link contact-us" href="#">Contact Us</a>
+              <a class="nav-link contact-us" href="/contactus">Contact Us</a>
           </li>
         </ul>
       </div>

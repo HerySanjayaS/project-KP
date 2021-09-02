@@ -21,7 +21,5 @@
         @include('home.partial.subscribe')
 
         @include('home.partial.customer')
-      
-
       </main> 
     @endsection
