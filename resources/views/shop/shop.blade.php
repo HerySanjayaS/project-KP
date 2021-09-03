@@ -1,0 +1,9 @@
+@extends('master')
+    @section('title')
+        <title>Shop</title>
+    @endsection
+    @section('konten')     
+    <main>
+        @include('shop.partial.productcard')
+      </main> 
+    @endsection

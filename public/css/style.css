@@ -355,6 +355,11 @@ footer {
     text-align: center;
 }
 
+.subscribe .form-subscribe input[type=text] {
+    width: 800px;
+    height: 50px;
+    border: none;
+}
 
 .bordersubscribe {
     border: solid 1px white;
@@ -487,8 +492,9 @@ footer {
     font-size: 15px;
 }
 
-.contact1 {
-    background-color: #F2F2F2;
+.yasa-contact {
+    background-color: white;
+    /*background-color: #F2F2F2;*/
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -497,42 +503,137 @@ footer {
     padding-bottom: 50px;
 }
 
-.peta {
-    height: 30px;
-    width: 279px;
+.card.alamat, .card.call, .card.email {
+    background-color: #F2F2F2;
+    width: 28%;
+    height: 250px;
+}
+
+.yasa-contact-img-preview {
+    margin: 80px 140px;
+    width: 60px;
+    height: 60px;
+}
+
+.yasa-contact-text {
     color: #000;
     font-family: Satoshi;
     font-size: 15px;
     font-weight: 700;
-    line-height: 30px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: -60px;
 }
 
-.card {
+.yasa-contact-text h5 {
+    font-weight: bold;
+}
+
+.card.sendus {
     width: 98%;
     box-shadow: 4px 4px 8px 6px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    padding: 20px;
+    padding: 20px 300px;
     margin-top: 20px;
     margin-left: 15px;
+}
+
+.card.sendus label.form-title {
+    margin: 20px 0px;
+}
+
+.card.sendus input[type=text]{
+    height: 60px;
+    background-color: #F2F2F2;
+    border: none;
+}
+
+.card.sendus input[type=text].empty {
+    height: 150px;
 }
 
 .judulsend {
     color: #F7A590;
 }
 
-.formdesc {
-    height: 100px;
-}
-
-.form {
-    color: #4F4F4F;
-}
-
 .buttonsend {
     background-color: #F35923;
     height: 39px;
     width: 200px;
-    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.card-title-shop {
+    height: 42px;
+    width: 201px;
+    color: rgb(87, 87, 87);
+    font-family: Poppins;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card-text-shop {
+    text-align: center;
+    color: #F7A590;
+    font-size: 15px;
+    height: 42px;
+    width: 150px;
+    font-family: Poppins;
+    padding-left: 50px;
+}
+
+.cardshop {
+    width: 75%;
+    float: right;
+    padding-top: 30px;
+
+}
+
+.sidebard {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.sidebard img {
+    width: 200px;
+}
+
+.newproduct {
+    color: #F7A590;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: poppins;
+}
+
+.categories ul {
+    color: #4F4F4F;
+    font-family: poppins;
+}
+
+.categories p {
+    text-align: left;
+}
+
+.categories {
+    padding-bottom: 50px;
+}
+
+.populartag p {
+    text-align: left;
+}
+
+.populartag {
+    padding-bottom: 50px;
+}
+
+.buttonpopular {
+    border-radius: 100px;
+    background-color: #F2F2F2;
+    height: 39px;
+    width: 100px;
+    padding: 5px 0px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding-right: 10px;
 }

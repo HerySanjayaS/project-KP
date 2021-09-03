@@ -11,7 +11,7 @@
               <a class="nav-link active home" aria-current="page" href="/">Home</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link shop" href="#">Shop</a>
+              <a class="nav-link shop" href="/shop">Shop</a>
           </li>
           <li class="nav-item">
               <a class="nav-link collection" href="#">Collection</a>
